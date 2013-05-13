@@ -1,0 +1,6 @@
+AIP=PriFinitty-2.45-x64.aip
+
+all: installer
+
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
